@@ -1,5 +1,59 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
+.bar {
+    background:rgb(40, 40, 40);
+    border-radius:150px;
+    margin:1px;
+}
+
+.light {
+    background: black;
+    height: 400px;
+    width: 200px;
+}
+
+.r-light {
+    border-radius:50%;
+    background:gray;
+    margin:1px;
+    height:120px;
+    width:120px;
+}
+
+.r-light.active {
+    background:red;
+}
+
+.y-light {
+    border-radius:50%;
+    background:gray;
+    margin:1px;
+    height:120px;
+    width:120px;
+}
+
+.y-light.active {
+    background: yellow;
+}
+
+.g-light {
+    border-radius:50%;
+    background:gray;
+    margin:1px;
+    height:120px;
+    width:120px;
+}
+
+.g-light.active {
+    background: green;
+}
+
+
+
+
+
+
+
 /* 
 
     You can write your own styles here...
