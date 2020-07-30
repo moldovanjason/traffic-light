@@ -28,17 +28,29 @@ export class Home extends Component {
 				<div className="light text-center mt-5">
 					<div
 						onClick={() => this.setState({ color: "red" })}
-						className={"r-light " + redOn}>
+						className={
+							this.state.color == "red"
+								? "r-light active"
+								: "r-light"
+						}>
 						red
 					</div>
 					<div
 						onClick={() => this.setState({ color: "yellow" })}
-						className={"y-light " + yellowOn}>
+						className={
+							this.state.color == "yellow"
+								? "y-light active"
+								: "y-light"
+						}>
 						yellow
 					</div>
 					<div
 						onClick={() => this.setState({ color: "green" })}
-						className={"g-light " + greenOn}>
+						className={
+							this.state.color == "green"
+								? "g-light active"
+								: "g-light"
+						}>
 						green
 					</div>
 				</div>
