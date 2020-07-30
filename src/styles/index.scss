@@ -2,17 +2,18 @@
 
 .bar {
     background:rgb(40, 40, 40);
-    border-radius:150px;
-    margin:1px;
     color:white;
-    width:10px;
-    height:20px;
+    width:20px;
+    height:200px;
+    // display: inline-block; 
 }
 
 .light {
-    background: black;
+    background: rgb(40, 40, 40);
     height: 400px;
     width: 200px;
+    border-radius: 10px;
+    display: inline-block; 
 }
 
 .r-light {
@@ -21,10 +22,11 @@
     margin:1px;
     height:120px;
     width:120px;
+    display: inline-block; 
 }
 
 .r-light.active {
-    background:red;
+    background:rgb(255, 37, 37);
 }
 
 .y-light {
@@ -33,10 +35,11 @@
     margin:1px;
     height:120px;
     width:120px;
+    display: inline-block; 
 }
 
 .y-light.active {
-    background: yellow;
+    background: rgb(255, 255, 65);
 }
 
 .g-light {
@@ -45,10 +48,11 @@
     margin:1px;
     height:120px;
     width:120px;
+    display: inline-block; 
 }
 
 .g-light.active {
-    background: green;
+    background: rgb(0, 182, 0);
 }
 
 

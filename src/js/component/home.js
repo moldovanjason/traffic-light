@@ -29,17 +29,17 @@ export class Home extends Component {
 					<div
 						onClick={() => this.setState({ color: "red" })}
 						className={"r-light " + redOn}>
-						red light
+						red
 					</div>
 					<div
 						onClick={() => this.setState({ color: "yellow" })}
 						className={"y-light " + yellowOn}>
-						yellow light
+						yellow
 					</div>
 					<div
 						onClick={() => this.setState({ color: "green" })}
 						className={"g-light " + greenOn}>
-						green light
+						green
 					</div>
 				</div>
 			</>
