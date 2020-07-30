@@ -24,7 +24,7 @@ export class Home extends Component {
 		}
 		return (
 			<>
-				<div className="bar">bar</div>
+				<div className="bar">light pole</div>
 				<div className="light text-center mt-5">
 					<div
 						onClick={() => this.setState({ color: "red" })}
