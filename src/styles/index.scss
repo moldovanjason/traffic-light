@@ -6,12 +6,12 @@
     width:20px;
     height:200px;
     // display: inline-block; 
-    margin-left:50%;
+    margin-left:45%;
 }
 
 .light {
     background: rgb(40, 40, 40);
-    height: 400px;
+    height: 450px;
     width: 200px;
     border-radius: 10px;
     display: inline-block; 
@@ -19,9 +19,10 @@
 }
 
 .r-light {
+    margin-top:10px;
+    margin-bottom:8px;
     border-radius:50%;
-    background:gray;
-    margin-top:1px;
+    background:rgb(102, 19, 19);
     height:120px;
     width:120px;
     display: inline-block; 
@@ -30,12 +31,14 @@
 
 .r-light.active {
     background:rgb(255, 37, 37);
+    padding: 10px;
+    box-shadow: 0px 0px 10px 10px #ff4444b3;
 }
 
 .y-light {
     border-radius:50%;
-    background:gray;
-    margin:1px;
+    background:rgb(101, 102, 17);
+    // margin:1px;
     height:120px;
     width:120px;
     display: inline-block; 
@@ -43,12 +46,14 @@
 
 .y-light.active {
     background: rgb(255, 255, 65);
+    box-shadow: 0px 0px 10px 10px #fdffa1cf;
 }
 
 .g-light {
+    margin-top:8px;
     border-radius:50%;
-    background:gray;
-    margin:1px;
+    background:rgb(34, 65, 28);
+    // margin:1px;
     height:120px;
     width:120px;
     display: inline-block; 
@@ -56,8 +61,37 @@
 
 .g-light.active {
     background: rgb(0, 182, 0);
+    box-shadow: 0px 0px 10px 10px #4fb141db;
 }
 
+.horBar{
+    background:rgb(40, 40, 40);
+    width:200px;
+    height:20px;
+    // display: inline-block; 
+}
+
+.rightBar{
+    transform: rotate(52deg);
+    background:rgb(40, 40, 40);
+    width:100px;
+    height:10px;
+    position: relative;
+    bottom: 50px;
+    left: 84px;
+    //display: inline-block; 
+}
+
+.leftBar{
+    transform: rotate(-50deg);
+    background:rgb(40, 40, 40);
+    width:100px;
+    height:10px;
+    position: relative;
+    bottom: 60px;
+    left: 15px;
+    // display: inline-block; 
+}
 
 
 

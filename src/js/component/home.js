@@ -24,7 +24,6 @@ export class Home extends Component {
 		}
 		return (
 			<>
-				<div className="bar">light pole</div>
 				<div className="light text-center mt-5">
 					<div
 						onClick={() => this.setState({ color: "red" })}
@@ -32,27 +31,28 @@ export class Home extends Component {
 							this.state.color == "red"
 								? "r-light active"
 								: "r-light"
-						}>
-						red
-					</div>
+						}
+					/>
 					<div
 						onClick={() => this.setState({ color: "yellow" })}
 						className={
 							this.state.color == "yellow"
 								? "y-light active"
 								: "y-light"
-						}>
-						yellow
-					</div>
+						}
+					/>
 					<div
 						onClick={() => this.setState({ color: "green" })}
 						className={
 							this.state.color == "green"
 								? "g-light active"
 								: "g-light"
-						}>
-						green
-					</div>
+						}
+					/>
+					<div className="bar" />
+					<div className="horBar" />
+					<div className="rightBar" />
+					<div className="leftBar" />
 				</div>
 			</>
 		);
